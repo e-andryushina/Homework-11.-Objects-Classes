@@ -17,5 +17,18 @@ public class Main {
         book.setYearOfPublication(2010);
         System.out.println("Книга " + book.getBookName() + " была переиздана в " + book.getYearOfPublication() + " году");
 
+
+        System.out.println(author.toString());
+        System.out.println(book.toString ());
+        System.out.println (author.hashCode());
+        System.out.println (book.hashCode());
+        System.out.println(book.getBookName().equals(book2.getBookName()));
+        System.out.println(author.getAuthorName().equals(author2.getAuthorName()));
+
+
+
+        }
+
+
+
     }
-}
